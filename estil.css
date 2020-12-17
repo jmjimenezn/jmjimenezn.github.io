@@ -25,8 +25,10 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     background-image: url(img/menu.jpg);
-    border-left: 6px solid rgb(252, 205, 50);
+    border-left: 6px solid rgb(50, 205, 252);
     border-right: 6px solid rgb(50, 205, 252);
+    border-bottom: 6px solid rgb(252, 205, 50);
+    border-top: 6px solid rgb(252, 205, 50);
 }
 
 .navegador {
@@ -72,3 +74,9 @@ body {
     letter-spacing: 3px;
     color: #340958;
 }
+
+body {
+    background-image: url("img/c3uhsgo1vx541.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+   }
