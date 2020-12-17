@@ -1,0 +1,36 @@
+PS C:\Users\josep\OneDrive\Escritorio\classe\Entorns de Desenvolupament\Entorns-de-Desenvolupament-1> git branch
+  BBDD
+  EEDD
+  LLMM
+* Programacio
+  SSII
+  master
+PS C:\Users\josep\OneDrive\Escritorio\classe\Entorns de Desenvolupament\Entorns-de-Desenvolupament-1> git checkout LLMM
+Switched to branch 'LLMM'
+PS C:\Users\josep\OneDrive\Escritorio\classe\Entorns de Desenvolupament\Entorns-de-Desenvolupament-1> git add LLMM.html
+PS C:\Users\josep\OneDrive\Escritorio\classe\Entorns de Desenvolupament\Entorns-de-Desenvolupament-1> git commit -m "commit LLMM"       
+[LLMM fad2bcb] commit LLMM
+ 1 file changed, 17 insertions(+)
+ create mode 100644 LLMM.html
+PS C:\Users\josep\OneDrive\Escritorio\classe\Entorns de Desenvolupament\Entorns-de-Desenvolupament-1> git checkout master
+Your branch is up to date with 'origin/master'.
+PS C:\Users\josep\OneDrive\Escritorio\classe\Entorns de Desenvolupament\Entorns-de-Desenvolupament-1> git merge LLMM
+Updating a8b7954..fad2bcb
+Fast-forward
+ 1 file changed, 17 insertions(+)
+ create mode 100644 LLMM.html
+PS C:\Users\josep\OneDrive\Escritorio\classe\Entorns de Desenvolupament\Entorns-de-Desenvolupament-1> git merge BBDD
+Merge made by the 'recursive' strategy.
+ BBDD.html | 17 +++++++++++++++++
+ 1 file changed, 17 insertions(+)
+ create mode 100644 BBDD.html
+PS C:\Users\josep\OneDrive\Escritorio\classe\Entorns de Desenvolupament\Entorns-de-Desenvolupament-1> git merge SSII
+Merge made by the 'recursive' strategy.
+ SSII.html | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+ create mode 100644 SSII.html
+PS C:\Users\josep\OneDrive\Escritorio\classe\Entorns de Desenvolupament\Entorns-de-Desenvolupament-1> git merge programacio
+Merge made by the 'recursive' strategy.
+ programacio.html | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+ create mode 100644 programacio.html
