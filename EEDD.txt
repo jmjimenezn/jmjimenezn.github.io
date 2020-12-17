@@ -33,4 +33,3 @@ PS C:\Users\josep\OneDrive\Escritorio\classe\Entorns de Desenvolupament\Entorns-
 Merge made by the 'recursive' strategy.
  programacio.html | 15 +++++++++++++++
  1 file changed, 15 insertions(+)
- create mode 100644 programacio.html
