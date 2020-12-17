@@ -2,6 +2,9 @@
 
 body { 
     margin: 0px;
+    background-image: url("img/c3uhsgo1vx541.jpg");
+    background-color: #cccccc;
+    background-size: cover;
 }
 
 .exercicis {
@@ -75,8 +78,8 @@ body {
     color: #340958;
 }
 
-body {
-    background-image: url("img/c3uhsgo1vx541.jpg");
-    background-color: #cccccc;
-    background-size: cover;
-   }
+.box {
+    background-color: rgba(0, 0, 0, 0.836);
+    border: 15px solid rgba(240, 169, 17, 0.295);
+    padding: 50px;
+}
