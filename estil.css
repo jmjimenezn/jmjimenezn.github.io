@@ -59,17 +59,18 @@ body {
 }
 
 .nav-link-esquerra a {
-    color: #7630b5;
+    color: #7c0d3b;
     text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav-link-esquerra a:hover {
-    border-bottom: 2px solid rgb(244, 141, 222);
-    border-top: 2px solid rgb(244, 141, 222);
+    border-bottom: 2px solid rgb(233, 89, 89);
+    border-top: 2px solid rgb(233, 89, 89);
 }
 
 .nav-link-esquerra a:hover {
-    color: rgb(252, 119, 50);
+    color: rgb(26, 241, 188);
 }
 
 .alumne {
@@ -78,8 +79,11 @@ body {
     color: #340958;
 }
 
-.box {
-    background-color: rgba(0, 0, 0, 0.836);
-    border: 15px solid rgba(240, 169, 17, 0.295);
+.boxa {
+    background-color: rgba(255, 255, 255, 0.836);
+    border-left: 6px solid rgb(50, 205, 252);
+    border-right: 6px solid rgb(50, 205, 252);
+    border-bottom: 3px solid rgb(250, 79, 193);
+    border-top: 3px solid rgb(250, 79, 193);
     padding: 50px;
 }
