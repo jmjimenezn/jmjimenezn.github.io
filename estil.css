@@ -1,0 +1,74 @@
+/* estil dels exercicis */
+
+body { 
+    margin: 0px;
+}
+
+.exercicis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.exercicis > div {
+    text-align: center;
+}
+
+.exercicis > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estil dl navegador */
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: url(img/menu.jpg);
+    border-left: 6px solid rgb(252, 205, 50);
+    border-right: 6px solid rgb(50, 205, 252);
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.nav-esquerra  {
+    display: flex;
+}
+
+.navegador > .nav-esquerra > div {
+    font-size: 150%;
+    margin-right: 40px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.nav-link-esquerra {
+    height: 25px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: 0.8s;
+}
+
+.nav-link-esquerra a {
+    color: #7630b5;
+    text-decoration: none;
+}
+
+.nav-link-esquerra a:hover {
+    border-bottom: 2px solid rgb(244, 141, 222);
+    border-top: 2px solid rgb(244, 141, 222);
+}
+
+.nav-link-esquerra a:hover {
+    color: rgb(252, 119, 50);
+}
+
+.alumne {
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #340958;
+}
