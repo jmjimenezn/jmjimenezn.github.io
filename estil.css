@@ -40,7 +40,7 @@ body {
 }
 
 .nav-esquerra  {
-    left: 120px;
+    left: 110px;
     display: flex;
     justify-content: space-between;
     padding: 20px;
