@@ -47,9 +47,9 @@ body {
     position:absolute;
     top: 70px;
     background-color: rgb(56, 12, 92);
-    border-bottom: 2px solid rgb(218, 50, 252);
-    border-top: 2px solid rgb(218, 50, 252);
-    border-right: 2px solid rgb(218, 50, 252);
+    border-bottom: 2px solid rgb(137, 50, 252);
+    border-top: 2px solid rgb(137, 50, 252);
+    border-right: 2px solid rgb(137, 50, 252);
 }
 
 .active {
