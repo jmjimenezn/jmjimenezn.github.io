@@ -91,6 +91,8 @@ body {
 }
 
 .alumne {
+    position:absolute;
+    right: 1%;
     color:rgb(58, 20, 107);
 }
 .alumne a {
