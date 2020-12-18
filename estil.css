@@ -86,6 +86,8 @@ body {
     border-bottom: 3px solid rgb(236, 79, 250);
     border-top: 3px solid rgb(236, 79, 250);
     padding: 50px;
+    font-family: zelda;
+    font-size: 120%;
 }
 
 .nav-dreta {
