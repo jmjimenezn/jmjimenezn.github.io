@@ -7,37 +7,27 @@ body {
     background-size: cover;
 }
 
-.exercicis {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.exercicis > div {
-    text-align: center;
-}
-
-.exercicis > img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Estil dl navegador */
+.logo {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    max-height: 160px;
+  }
 
 .box {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
     background-image: url(img/menu.jpg);
-    border-left: 6px solid rgb(50, 205, 252);
-    border-right: 6px solid rgb(50, 205, 252);
-    border-bottom: 6px solid rgb(252, 205, 50);
-    border-top: 6px solid rgb(252, 205, 50);
+    border-left: 6px solid rgb(137, 50, 252);
+    border-right: 6px solid rgb(137, 50, 252);
+    border-bottom: 6px solid rgb(218, 50, 252);
+    border-top: 6px solid rgb(218, 50, 252);
 }
 
 .navegador {
-    display: flex;
+    display:flex;
     justify-content: space-between;
-    padding: 40px;
+    padding: 50px;
 }
 
 .nav-esquerra  {
@@ -59,7 +49,7 @@ body {
 }
 
 .nav-link-esquerra a {
-    color: #7c0d3b;
+    color: rgb(91, 22, 105);
     text-decoration: none;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -70,20 +60,28 @@ body {
 }
 
 .nav-link-esquerra a:hover {
-    color: rgb(26, 241, 188);
+    color: rgb(21, 138, 80);
 }
 
-.alumne {
+
+
+.boxa {
+    background-color: rgba(255, 255, 255, 0.836);
+    border-left: 6px solid rgb(137, 50, 252);
+    border-right: 6px solid rgb(137, 50, 252);
+    border-bottom: 3px solid rgb(250, 79, 193);
+    border-top: 3px solid rgb(250, 79, 193);
+    padding: 50px;
+}
+
+.nav-dreta {
+    display:flex;
+    justify-content:flex-end;
     font-weight: bold;
     letter-spacing: 3px;
     color: #340958;
 }
 
-.boxa {
-    background-color: rgba(255, 255, 255, 0.836);
-    border-left: 6px solid rgb(50, 205, 252);
-    border-right: 6px solid rgb(50, 205, 252);
-    border-bottom: 3px solid rgb(250, 79, 193);
-    border-top: 3px solid rgb(250, 79, 193);
-    padding: 50px;
+.alumne {
+    color:rgb(137, 50, 252);
 }
