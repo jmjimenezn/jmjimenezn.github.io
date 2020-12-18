@@ -8,6 +8,7 @@ body {
 }
 
 .logo {
+    z-index: 999;
     position: relative;
     left: 0px;
     bottom: 0px;
@@ -39,11 +40,12 @@ body {
 }
 
 .nav-esquerra  {
+    left: 120px;
     display: flex;
     justify-content: space-between;
     padding: 20px;
     position:absolute;
-    top: 50px;
+    top: 70px;
     background-color: rgb(56, 12, 92);
 }
 
